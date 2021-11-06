@@ -14,9 +14,10 @@ The text(str) after cipher.
 
 Example:
 -------------
+>>> import cipher_ky2458
 >>> text = 'K'
 >>> shift = 1
->>> m = cipher(a, b)
+>>> m = cipher_ky2458.cipher(a, b)
 >>> print(m)
 L
 '''
