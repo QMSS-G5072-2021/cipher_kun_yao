@@ -1,4 +1,4 @@
-'''
+"""
 The function:
 -------------
 Each letter is replaced by a letter some fixed number of positions down the alphabet.
@@ -20,7 +20,7 @@ Example:
 >>> m = cipher_ky2458.cipher(a, b)
 >>> print(m)
 L
-'''
+"""
 
 def cipher(text, shift, encrypt=True):
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
